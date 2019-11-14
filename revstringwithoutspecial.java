@@ -9,14 +9,12 @@ public class revstringwithoutspecial {
 		char ch1[]=new char[str.length()];
 		char ch2[]=new char[str.length()];
 		int a=0,b=0,c=0;
-		int arr[]=new int[str.length()];
 		for(int i=0;i<str.length();i++)
 		{
 			char ch=str.charAt(i);
 			if(ch>=33&&ch<=64||ch>=91&&ch<=96||ch>=123&&ch<=126)
 			{
 				ch1[a]= ch;
-				arr[a]=i;
 				a++;
 			}
 			else
