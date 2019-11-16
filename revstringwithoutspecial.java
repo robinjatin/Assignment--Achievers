@@ -5,7 +5,8 @@ public class revstringwithoutspecial {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
 		String str=new String();
-		str=sc.next();
+		System.out.println("Enter the string");
+		str=sc.nextLine();
 		char ch1[]=new char[str.length()];
 		char ch2[]=new char[str.length()];
 		int a=0,b=0,c=0;
@@ -30,6 +31,7 @@ public class revstringwithoutspecial {
 			ch4[i]=ch2[b-i-1];
 		}
 		int e=0,f=0;
+		System.out.println("The reversed string is:");
 		for(int i=0;i<str.length();i++)
 		{
 			if(ch3[i]>=33&&ch3[i]<=64||ch3[i]>=91&&ch3[i]<=96||ch3[i]>=123&&ch3[i]<=126)
