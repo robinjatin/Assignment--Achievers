@@ -1,5 +1,5 @@
 import java.util.*;
-public class largestpalindrome {
+public class largestpallindrome {
 	public static String palin(String str,int n1)
 	{
 		int n=str.length();
