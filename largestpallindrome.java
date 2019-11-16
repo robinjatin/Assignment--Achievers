@@ -13,7 +13,6 @@ public class largestpallindrome {
 		}
 		if(flag==n&&flag>1)
 		{
-			//System.out.print(str+" ");
 		return str;
 		}
 		else
