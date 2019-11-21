@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class linkedlistrev {
+public class linkedlistrot {
 	static Node head;
 	static int count=0;
 	static int count1=0;
@@ -13,7 +13,7 @@ public class linkedlistrev {
 			next=null;
 		}
 	}
-	public static void insert(linkedlistrev li,int data)
+	public static void insert(linkedlistrot li,int data)
 	{
 		Node newNode=new Node(data);
 		newNode.next=null;
@@ -33,7 +33,7 @@ public class linkedlistrev {
 				last.next=newNode;
 		}
 	}
-	public static void rotate(linkedlistrev li,int n)
+	public static void rotate(linkedlistrot li,int n)
 	{
 		for(int i=0;i<n;i++)
 		{
@@ -41,7 +41,7 @@ public class linkedlistrev {
 		}
 		
 	}
-	public static void rotate1(linkedlistrev li)
+	public static void rotate1(linkedlistrot li)
 	{
 		count=0;
 		Node qw=li.head;
@@ -67,7 +67,7 @@ public class linkedlistrev {
 			yu=yu.next;
 		}
 	}
-	public static void display(linkedlistrev li)
+	public static void display(linkedlistrot li)
 	{
 		Node current=li.head;
 		System.out.println("The LinkedList is as follows: ");
@@ -81,7 +81,7 @@ public class linkedlistrev {
 	public static void main(String args[])
 	{
 		Scanner sc=new Scanner(System.in);
-		linkedlistrev li=new linkedlistrev();
+		linkedlistrot li=new linkedlistrot();
 		System.out.println("Enter the amount of elements you want to enter");
 		int n=sc.nextInt();
 		System.out.println("Enter the elements");
