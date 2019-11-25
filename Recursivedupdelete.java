@@ -9,7 +9,7 @@ public class Recursivedupdelete {
 		str=sc.next();
 		int n=str.length();
 		String str1="";
-		for(i=0;i<n-1;i++)
+		for(int i=0;i<n-1;i++)
 		{
 			if(i==0)
 			{
