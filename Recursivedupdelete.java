@@ -1,5 +1,5 @@
 import java.util.*;
-public class Recursivedelete {
+public class Recursivedupdelete {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -8,10 +8,6 @@ public class Recursivedelete {
 		String str=new String();
 		str=sc.next();
 		int n=str.length();
-		char arr[]=new char[100];
-		int a=0;
-		char charr[]=str.toCharArray();
-		int i=0,c=0;
 		String str1="";
 		for(i=0;i<n-1;i++)
 		{
