@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 public class Recursivedupdelete {
 
 	public static void main(String[] args) {
@@ -30,6 +30,8 @@ public class Recursivedupdelete {
 		{
 			str1+=str.charAt(n-1);
 		}
+		System.out.println("The string after deleting adjacent duplicates is: ");
 		System.out.print(str1);
 	}
 }
+
